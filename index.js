@@ -12,6 +12,7 @@ dbConnect();
 
 // Enable CORS
 app.use(cors({
+    // origin: 'https://admin-panel.rajavrukshagroup.in', // Replace with your frontend URL
     origin: 'https://admin-panel.rajavrukshagroup.in', // Replace with your frontend URL
     credentials: true, // Allow cookies or authorization headers
 }));
